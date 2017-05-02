@@ -1,0 +1,12 @@
+import java.awt.Font;
+import java.awt.event.KeyEvent;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		StdDraw.setCanvasSize(2000,1500); 
+		terrain ter=new terrain();
+		terrain.affichter(ter.getter());
+	}
+}
